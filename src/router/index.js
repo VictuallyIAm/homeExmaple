@@ -3,7 +3,7 @@ import TeamStructure from "../pages/TeamStructure";
 
 const routes = [
   {
-    path: "/homeExmaple",
+    path: "/",
     name: "TeamStructure",
     component: TeamStructure,
   },
