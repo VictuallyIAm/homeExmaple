@@ -1,7 +1,7 @@
 <template>
   <v-app-bar app color="grey-darken-4">
     <template v-slot:prepend>
-      <v-btn variant="plain" to="/" size="x-large">
+      <v-btn variant="plain" to="/homeExmaple" size="x-large">
         <v-icon>mdi-blender-software</v-icon>CSMT
       </v-btn>
       <v-btn variant="plain" id="team"
@@ -75,8 +75,8 @@ export default {
   data() {
     return {
       team: [
-        { title: "Organisation structure", to: "/" },
-        { title: "Organisation structure outsources", to: "/" },
+        { title: "Organisation structure", to: "/homeExmaple" },
+        { title: "Organisation structure outsources", to: "/homeExmaple" },
       ],
       reports: [
         { title: "Weekly Reports", to: "/weeklyreport" },
