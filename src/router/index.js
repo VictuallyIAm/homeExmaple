@@ -1,12 +1,11 @@
 import { createRouter, createWebHistory } from "vue-router";
-// import TeamStructure from "../pages/TeamStructure";
-import ChargeBackNew from "../pages/ChargeBackNew";
+import TeamStructure from "../pages/TeamStructure";
 
 const routes = [
   {
     path: "/homeExmaple",
     name: "TeamStructure",
-    component: ChargeBackNew,
+    component: TeamStructure,
   },
 ];
 
